@@ -1,0 +1,2 @@
+SELECT SUM(unit_sales) AS total_sales
+FROM sales;

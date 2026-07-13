@@ -37,3 +37,26 @@
 | Normalización de tablas <br> "sales not normalized" <br> Inserta los datos en la tabla creada | ![normalización](./doc/img/db_any_company_global.png)
 | Diagrama de Chen | ![diagrama_de_chen](./doc/img/chen_diagram_any-company-exercise.png) |
 | [Script SQL](./doc/sql/Script.sql) | ![script](./doc/img/Captura%20de%20pantalla%202026-07-12%20223018.jpg)
+
+---
+
+## Sales
+
+### Requisitos:
+
+- Crea una base de datos de MySQL en Docker
+- Crea la tabla `sales` con el script proporcionado
+- Crear scripts donde:
+    - Pueda obtener todos los datos de `food_category` y `food_subcategory`
+    - Pueda obtener solo las subcategorías que empiecen con "C"
+    - Pueda obtener la cantidad total de unidades vendidas
+    - Pueda obtener las unidades totales vendidas en el continente americano
+
+### Resultados:
+
+| Script | Imagen |
+| --- | --- |
+| [Datos de `food_category` y `food_subcategory`](./doc/sql/EX%20-%20Sales/Script1.sql) | ![script1_image](./doc/img/EX%20-%20Sales/Script1.jpg) |
+| [Subcategorías que empiecen por "C"](./doc/sql/EX%20-%20Sales/Script2.sql) | ![script2_image](./doc/img/EX%20-%20Sales/Script2.jpg) |
+| [Total de unidades vendidas](./doc/sql/EX%20-%20Sales/Script3.sql) | ![script3_image](./doc/img/EX%20-%20Sales/Script3.jpg) |
+| [Total de unidades vendidas en América](./doc/sql/EX%20-%20Sales/Script4.sql) | ![script4_image](./doc/img/EX%20-%20Sales/Script4.jpg) |
