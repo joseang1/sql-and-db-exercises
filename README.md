@@ -52,6 +52,11 @@
     - Pueda obtener la cantidad total de unidades vendidas
     - Pueda obtener las unidades totales vendidas en el continente americano
 
+### Base de datos de MySQL en Docker:
+
+![base_de_datos_docker](./doc/img/EX%20-%20Sales/Docker_Database.jpg)
+Base de datos de MySQL creada en Docker.
+
 ### Resultados:
 
 | Script | Imagen |
